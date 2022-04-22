@@ -1,27 +1,33 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
+// This is the project class which has all the necessary attributes and methods.
 class Project
 {
-private:
-    /* data */
-public:
-    Project(/* args */);
-    ~Project();
+    private:
+        int totaltask;
+
+    public:
+
+        Project(int totaltask){
+        this.totaltask = totaltask;
+        }
+        void showtotaltask(){
+            cout<<"Total tasks project requred for the compeletion = "<<totaltask;
+        }
+    
 };
-
-Project::Project(/* args */)
-{
-}
-
-Project::~Project()
-{
-}
-
+//It's the task class which has all the attributes and methods that are required while doing a task for a user
 class Task{
 
+  public:
+    void settask();
+    string gettask();
+    string taststatus();
+    int taskid();
 
 };
+
 
 
 int main(){
