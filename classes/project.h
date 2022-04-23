@@ -1,6 +1,6 @@
-#include<bits/stdc++.h>
-
-using namespcae std;
+#include<iostream>
+#include<string>
+using namespace std;
 
 class Project{
     private:
